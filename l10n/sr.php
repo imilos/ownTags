@@ -3,6 +3,7 @@
 $TRANSLATIONS = array(
 // Admin setup
 // - php and templates
+// Milosev komentar
     'ImageMagick is loaded and ready to be used' => 'ImageMagick је учитан сам спреман за употребу.',
     'ImageMagick is not loaded: Please refers to php manual.' => 'ImageMagick није учитан. Молим вас погледајте у PHP приручнику!',
     'Only admins can edit tags' => 'Само админи могу да мењају тагове.',
