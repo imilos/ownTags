@@ -826,7 +826,7 @@ $(document).ready(function() {
         var bValid = true;
         allFields.removeClass( "ui-state-error" );
         //bValid = bValid && checkLength( tagName, 1, 20 );
-        bValid = bValid && checkLength( document.getElementById("tagName"), 1, 20 );
+        bValid = bValid && checkLength( document.getElementById("tagName"), 1, 80 );
 
         if ( bValid ) {
             /*
@@ -921,7 +921,7 @@ $(document).ready(function() {
         var bValid = true;
         allFields.removeClass( "ui-state-error" );
         //bValid = bValid && checkLength( newTagName, 1, 20 );
-        bValid = bValid && checkLength( document.getElementById("newTagName"), 1, 20 );
+        bValid = bValid && checkLength( document.getElementById("newTagName"), 1, 80 );
 
         if ( bValid ) {
           //  var newValue = newTagName.value;
